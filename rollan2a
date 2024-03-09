@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Basic HTML Layout
+	</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		/* CSS property for header section */
+		.header {
+			background-color: rgb(92, 87, 92);
+			padding: 10px;
+			text-align: center;
+		}
+
+		/* CSS property for navigation menu */
+		.nav_menu {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.nav_menu a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 10px 15px;
+			text-decoration: none;
+		}
+
+		.nav_menu a:hover {
+			background-color: rgb(250, 250, 250);
+			color: rgb(0, 0, 0);
+		}
+
+		/* CSS property for content section */
+		.Page1,
+		.Page2,
+		.Page3 {
+			float: left;
+			width: 31%;
+			padding: 15px;
+			text-align: justify;
+		}
+
+		h2 {
+			color: rgb(0, 0, 0);
+			text-align: center;
+		}
+
+		/* Media query to set website layout 
+			according to screen size */
+		@media screen and (max-width:600px) {
+
+			.columnA,
+			.columnB,
+			.columnC {
+				width: 50%;
+			}
+		}
+
+		@media screen and (max-width:400px) {
+
+			.columnA,
+			.columnB,
+			.columnC {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- header of website layout -->
+	<div class="header">
+		<h2 style="color:white;font-size:150%">
+			WELCOME TO  MY WEBSITE
+		</h2>
+	</div>
+
+	<!-- navigation menu of website layout -->
+	<div class="nav_menu">
+		<a href="#">Home</a>
+        <a href="#">About</a>
+		<a href="#">Projects</a>
+		<a href="#">Contacts</a>
+	</div>
+
+	<!-- Content section of website layout -->
+	<div class="row">
+
+		<div class="Page1">
+			<h2>Page 1</h2>
+
+			<p>
+				Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+                Hiiiiiiiiiiiiiiiiiiiiiii
+			</p>
+
+		</div>
+
+		<div class="Page2">
+			<h2>Page 2</h2>
+
+			<p>
+				Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                Heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+			</p>
+
+		</div>
+
+		<div class="Page 3">
+			<h2>Page 3</h2>
+
+
+
+			<p>
+				Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+                Wazzzzzzzzzzzzupppppppppppppppppppppppppppppppppppppppppppppp
+			</p>
+
+		</div>
+	</div>
+</body>
+
+
+
+<body>
+    <!-- footer Section -->
+    <div class="footer">
+        <a href="#"></a><br>
+        <a href="#"></a><br>
+        <a href="#">About</a><br>
+        <a href="#">Career</a><br>
+        <a href="#">Contact Us</a>
+    </div>
+</body>
+ 
+</html>
